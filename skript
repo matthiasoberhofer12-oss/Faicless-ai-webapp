@@ -1,0 +1,7 @@
+document.getElementById("generateBtn").addEventListener("click", async () => {
+    const input = document.getElementById("userInput").value;
+    const img = document.getElementById("generatedImage");
+
+    // Platzhalterbild (später API-Aufruf hier einfügen)
+    img.src = "https://via.placeholder.com/512?text=Dein+KI+Bild";
+});
